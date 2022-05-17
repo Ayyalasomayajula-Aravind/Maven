@@ -1,0 +1,39 @@
+{
+   "version":"1.0",
+   "envConfig":{
+      "test":{
+         "targetServers":[
+            {
+               "name":"bin",
+               "host":"google.com",
+               "isEnabled":true,
+               "port":8443
+            }
+         ]
+         
+         
+      },
+      "prod":{
+         "targetServers":[
+            {
+               "name":"bin1",
+               "host":"google.com",
+               "isEnabled":true,
+               "port":8443
+            }
+         ]
+         
+         
+      }
+   },
+   "orgConfig":{
+      "specs":[
+         {
+            "name":"newpetstore",
+            "file":"./specs/Swagger-Petstore_rev1_2022_05_16.yaml"
+         }
+      ]
+      
+     
+     
+}}

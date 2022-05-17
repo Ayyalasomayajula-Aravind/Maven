@@ -1,0 +1,42 @@
+{
+   "version":"1.0",
+   "envConfig":{
+      "prod":{
+         "targetServers":[
+            {
+               "name":"bin",
+               "host":"google.com",
+               "isEnabled":true,
+               "port":8443
+            }
+         ]
+         
+         
+      }
+   },
+   "orgConfig":{
+      "specs":[
+         {
+            "name":"newpetstore",
+            "file":"./specs/Swagger-Petstore_rev1_2022_05_16.yaml"
+         }
+      ],
+      "apiProducts":[
+         {
+            "name":"EchoProduct",
+            "apiResources":[
+               "/"
+            ],
+            "approvalType":"auto",
+            "description":"Echo Product",
+            "displayName":"Echo Product",
+            "environments":[
+               "prod"
+            ],
+            "proxies":[
+               "Swagger-Petstore_rev1_2022_05_16"
+            ]
+      
+     
+     
+}]}}
