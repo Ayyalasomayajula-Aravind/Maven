@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><APIProxy name="dummy" revision="1">
+    <Basepaths>/dummy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1651816316998</CreatedAt>
+    <CreatedBy>somayajula1996@gmail.com</CreatedBy>
+    <Description>commit edc6277c from master branch. Deployed by somay</Description>
+    <DisplayName>dummy</DisplayName>
+    <LastModifiedAt>1651816374284</LastModifiedAt>
+    <LastModifiedBy>somayajula1996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ac59eff0e582db0ecd2ab5318ec4d8e7d631567b1e859268d3b84e733cdb9edfc65714efdc7202a31bf9e3401dcd028926f4b369250b9f0b5a190f52ceb16802:ap-southeast-2</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec/>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
